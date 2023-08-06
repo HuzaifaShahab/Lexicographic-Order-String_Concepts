@@ -4,7 +4,7 @@ public class largestString {
 
         String largest = Cars[0] ;                                   // Assumption
         for (int i=1 ; i< Cars.length ; i++){
-           if(largest.compareTo(Cars[i]) < 0)        // Orders
+           if(largest.compareTo(Cars[i]) < 0)        // On the basis of Lexicographic-Order
                largest = Cars[i] ;
         }
         System.out.println("Largest String Among Them Is : "+largest);
