@@ -1,6 +1,6 @@
 public class largestString {
     public static void main(String[] args) {
-        String [] Cars = {"Corolla" , "Civic" , "Prius" , "Honda"} ;  // Collection
+        String [] Cars = {"Corolla" , "Civic" , "Prius" , "Honda"} ;  // Collection of Cars-Strings
 
         String largest = Cars[0] ;                                   // Assumption
         for (int i=1 ; i< Cars.length ; i++){
